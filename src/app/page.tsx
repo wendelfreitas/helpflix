@@ -1,15 +1,14 @@
 import logo from '../../static/assets/img/logo.svg';
 import Image from 'next/image';
+import { Button } from './components/Button';
+import { Title } from './components/Title';
+import { SubTitle } from './components/Subtitle';
 
 export default function Home() {
   return (
     <main className="mt-12 flex flex-col">
-      <h2 className="text-2xl font-bold text-black text-center">
-        Faça sua doação
-      </h2>
-      <p className="text-center text-dark-grey text-sm mt-7 mb-10">
-        Faça a assinatura do bem e ajude o Pão do Povo da Rua mensalmente!
-      </p>
+      <Title title="Faça sua doação" />
+      <SubTitle subTitle="Faça a assinatura do bem e ajude o Pão do Povo da Rua mensalmente!" />
       <ul className="flex gap-5 justify-center pb-10">
         <li>
           <input
@@ -96,12 +95,7 @@ export default function Home() {
           </p>
         </label>
       </div>
-      <button
-        type="submit"
-        className="h-14 bg-gradient-to-r from-secondary-800 to-secondary-400 rounded-lg text-lg font-bold text-white"
-      >
-        Avançar
-      </button>
+      <Button name="Avançar" />
       <div className="flex gap-2 my-5  justify-center">
         <p className="text-xs text-medium-gray">Power by</p>
         <Image src={logo} width={85} height={10} alt=" helpflix logo" />
