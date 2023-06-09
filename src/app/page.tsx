@@ -3,10 +3,11 @@ import Image from 'next/image';
 import { Button } from './components/Button';
 import { Title } from './components/Title';
 import { SubTitle } from './components/Subtitle';
+import { HelpFlixLogo } from './components/logo';
 
 export default function Home() {
   return (
-    <main className="mt-12 flex flex-col">
+    <main className="mt-12 flex flex-col mb-5">
       <Title title="Faça sua doação" />
       <SubTitle subTitle="Faça a assinatura do bem e ajude o Pão do Povo da Rua mensalmente!" />
       <ul className="flex gap-5 justify-center pb-10">
@@ -95,11 +96,10 @@ export default function Home() {
           </p>
         </label>
       </div>
-      <Button name="Avançar" />
-      <div className="flex gap-2 my-5  justify-center">
-        <p className="text-xs text-medium-gray">Power by</p>
-        <Image src={logo} width={85} height={10} alt=" helpflix logo" />
-      </div>
+
+      <Button name="Avançar" route="/personalData" />
+
+      <HelpFlixLogo />
     </main>
   );
 }
