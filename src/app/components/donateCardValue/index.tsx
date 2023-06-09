@@ -10,7 +10,7 @@ export const DonateCardValue = ({ value }: DonateCardValueProps) => {
       <p>
         R$ <span className="text-black text-2xl font-bold">{value} Reais</span>
       </p>
-      <p className="text-blue-600 font-bold text-lg">
+      <p className="text-blue-600 font-bold text-base">
         Para tornar um mundo melhor
       </p>
     </div>

@@ -1,5 +1,5 @@
 import './globals.css';
-import logo from '../../static/assets/img/logo.svg';
+import logo from '../../public/img/logo.svg';
 import Image from 'next/image';
 export const metadata = {
   title: 'Create Next App',

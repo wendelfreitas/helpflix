@@ -24,7 +24,7 @@ export default function Address() {
         </div>
 
         <Input inputName="CPF" placeHolder="CPF" required />
-        <Button name="Avançar" route="/checkout" />
+        <Button name="Avançar" route="/confirm" />
       </div>
       <HelpFlixLogo />
     </main>
