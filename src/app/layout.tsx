@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="bg-gradient-to-b from-secondary-700 to-secondary-400">
+        <div className="bg-gradient-to-b from-secondary-800  to-secondary-400 to-20%">
           <header className="flex flex-col h-52 justify-center items-center gap-4">
             <h1 className="text-4xl text-white font-bold">Ong name</h1>
             <div className="flex gap-2">
