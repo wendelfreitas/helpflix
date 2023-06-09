@@ -19,7 +19,7 @@ export default function PersonalData() {
           inputName="Data de nascimento"
           required
         />
-        <Button name="Avançar" route="" />
+        <Button name="Avançar" route="/adress" />
       </div>
       <HelpFlixLogo />
     </main>
