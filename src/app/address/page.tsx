@@ -25,7 +25,7 @@ export default function Address() {
           placeHolder="Data de nascimento"
           required
         />
-        <Button name="Avançar" route="" />
+        <Button name="Avançar" route="/checkout" />
       </div>
       <HelpFlixLogo />
     </main>
