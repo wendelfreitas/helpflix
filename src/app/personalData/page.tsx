@@ -1,7 +1,7 @@
-import { Button } from '../components/Button';
+import { Button } from '../components/button';
 import { Input } from '../components/Input';
 import { SubTitle } from '../components/Subtitle';
-import { Title } from '../components/Title';
+import { Title } from '../components/title';
 import { HelpFlixLogo } from '../components/logo';
 
 export default function PersonalData() {
@@ -19,7 +19,7 @@ export default function PersonalData() {
           inputName="Data de nascimento"
           required
         />
-        <Button name="Avançar" route="/adress" />
+        <Button name="Avançar" route="/address" />
       </div>
       <HelpFlixLogo />
     </main>
