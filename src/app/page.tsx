@@ -1,7 +1,7 @@
 import logo from '../../static/assets/img/logo.svg';
 import Image from 'next/image';
-import { Button } from './components/Button';
-import { Title } from './components/Title';
+import { Button } from './components/button';
+import { Title } from './components/title';
 import { SubTitle } from './components/Subtitle';
 import { HelpFlixLogo } from './components/logo';
 
