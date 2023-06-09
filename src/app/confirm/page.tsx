@@ -1,16 +1,22 @@
 import emailIcon from '../../../public/img/email.svg';
 import Image from 'next/image';
-
+import checkSucces from '../.../../../../public/lotties/checkSucces.json';
 import { Title } from '../components/title';
 import { HelpFlixLogo } from '../components/logo';
 import { DonateCardValue } from '../components/donateCardValue';
 import { SubTitle } from '../components/Subtitle';
+import Lottie from 'react-lottie-player';
 
 export default function Address() {
   return (
     <main className="mt-10 flex flex-col w-full mb-5">
       <Title title="Deu tudo certo!" />
-
+      <Lottie
+        loop
+        animationData={checkSucces}
+        play
+        style={{ width: 88, height: 88 }}
+      />
       <SubTitle subTitle="Agora você contribui" />
       <DonateCardValue value="50" />
       <div className="flex justify-center">
