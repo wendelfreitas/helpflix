@@ -49,6 +49,8 @@ module.exports = {
         },
         black: '#1C1C1C',
         'dark-grey': '#626262',
+        'medium-gray': '#959595',
+        'light-grey': '#C0C0C0',
       },
     },
   },
