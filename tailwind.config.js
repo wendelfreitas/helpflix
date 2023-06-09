@@ -48,6 +48,7 @@ module.exports = {
           950: '#0b3246',
         },
         black: '#1C1C1C',
+        'dark-grey': '#626262',
       },
     },
   },
