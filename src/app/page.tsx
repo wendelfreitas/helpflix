@@ -1,7 +1,7 @@
-import { Button } from './components/button';
-import { Title } from './components/title';
+import { Button } from './components/Button';
+import { Title } from './components/Title';
 import { SubTitle } from './components/Subtitle';
-import { HelpFlixLogo } from './components/logo';
+import { HelpFlixLogo } from './components/Logo';
 
 export default function Home() {
   return (

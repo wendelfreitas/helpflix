@@ -1,8 +1,8 @@
-import { Button } from '../components/button';
+import { Button } from '../components/Button';
 import { Input } from '../components/Input';
 import { SubTitle } from '../components/Subtitle';
-import { Title } from '../components/title';
-import { HelpFlixLogo } from '../components/logo';
+import { Title } from '../components/Title';
+import { HelpFlixLogo } from '../components/Logo';
 
 export default function PersonalData() {
   return (

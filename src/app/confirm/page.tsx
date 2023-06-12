@@ -1,9 +1,9 @@
 import emailIcon from '../../../public/img/email.svg';
 import Image from 'next/image';
 import checkSucces from '../.../../../../public/lotties/checkSucces.json';
-import { Title } from '../components/title';
-import { HelpFlixLogo } from '../components/logo';
-import { DonateCardValue } from '../components/donateCardValue';
+import { Title } from '../components/Title';
+import { HelpFlixLogo } from '../components/Logo';
+import { DonateCardValue } from '../components/DonateCardValue';
 import { SubTitle } from '../components/Subtitle';
 import Lottie from 'react-lottie-player';
 
