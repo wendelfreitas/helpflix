@@ -7,7 +7,7 @@ import { HelpFlixLogo } from './components/logo';
 
 export default function Home() {
   return (
-    <main className="mt-12 flex flex-col mb-5">
+    <main className="mt-12 flex flex-col mb-5 w-full">
       <Title title="Faça sua doação" />
       <SubTitle subTitle="Faça a assinatura do bem e ajude o Pão do Povo da Rua mensalmente!" />
       <ul className="flex gap-5 justify-center pb-10">
