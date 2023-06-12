@@ -10,13 +10,13 @@ export default function PersonalData() {
       <Title title="Dados pessoais" />
       <SubTitle subTitle="Adicione seus dados abaixo" />
       <div className="flex gap-5 flex-col">
-        <Input placeHolder="Nome" inputName="Nome" required />
-        <Input placeHolder="Sobrenome" inputName="Sobrenome" required />
-        <Input placeHolder="Telefone" inputName="Telefone" required />
-        <Input placeHolder="Email" inputName="Email" required />
+        <Input placeHolder="Nome" label="Nome" required />
+        <Input placeHolder="Sobrenome" label="Sobrenome" required />
+        <Input placeHolder="Telefone" label="Telefone" required />
+        <Input placeHolder="Email" label="Email" required />
         <Input
           placeHolder="Data de nascimento"
-          inputName="Data de nascimento"
+          label="Data de nascimento"
           required
         />
         <Button name="Avançar" route="/address" />

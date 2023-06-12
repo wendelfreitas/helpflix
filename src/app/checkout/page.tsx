@@ -12,18 +12,18 @@ export default function Address() {
       <Title title="Dados de Pagamento" />
 
       <div className="flex gap-5 flex-col">
-        <Input inputName="Número do cartão" placeHolder="00000-000" required />
+        <Input label="Número do cartão" placeHolder="00000-000" required />
         <Input
-          inputName="Nome inserido do cartão"
+          label="Nome inserido do cartão"
           placeHolder="00000-000"
           required
         />
         <div className="grid grid-cols-2 gap-5">
-          <Input inputName="CVV" placeHolder="000" required />
-          <Input inputName="Vencimento" placeHolder="0000" required />
+          <Input label="CVV" placeHolder="000" required />
+          <Input label="Vencimento" placeHolder="0000" required />
         </div>
 
-        <Input inputName="CPF" placeHolder="CPF" required />
+        <Input label="CPF" placeHolder="CPF" required />
         <Button name="Avançar" route="/confirm" />
       </div>
       <HelpFlixLogo />

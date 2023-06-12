@@ -10,18 +10,18 @@ export default function Address() {
       <Title title="Endereço" />
       <SubTitle subTitle="Porque pedimos seu endereço?" />
       <div className="flex gap-5 flex-col">
-        <Input inputName="CEP" placeHolder="00000-000" required />
-        <Input inputName="Rua" placeHolder="Rua" required />
+        <Input label="CEP" placeHolder="00000-000" required />
+        <Input label="Rua" placeHolder="Rua" required />
         <div className="grid grid-cols-2 gap-5">
-          <Input inputName="Número" placeHolder="0000" required />
-          <Input inputName="complemento" placeHolder="0000" required />
+          <Input label="Número" placeHolder="0000" required />
+          <Input label="complemento" placeHolder="0000" required />
         </div>
 
-        <Input inputName="Bairro" placeHolder="Bairro" required />
-        <Input inputName="cidade" placeHolder="cidade" required />
+        <Input label="Bairro" placeHolder="Bairro" required />
+        <Input label="cidade" placeHolder="cidade" required />
 
         <Input
-          inputName="Data de nascimento"
+          label="Data de nascimento"
           placeHolder="Data de nascimento"
           required
         />
