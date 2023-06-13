@@ -8,7 +8,7 @@ export default function PersonalData() {
   return (
     <main className="flex flex-col w-full mb-5">
       <Title title="Dados pessoais" />
-      <SubTitle subTitle="Adicione seus dados abaixo" />
+      <SubTitle className="my-5" subTitle="Adicione seus dados abaixo" />
       <div className="flex gap-5 flex-col">
         <Input placeHolder="Nome" label="Nome" required />
         <Input placeHolder="Sobrenome" label="Sobrenome" required />
