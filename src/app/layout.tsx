@@ -24,6 +24,7 @@ export default function RootLayout({
           </header>
 
           <div className="bg-white rounded-t-3xl flex flex-col items-center px-6 ">
+            <div className="w-full h-10 bg-white rounded-full relative -top-3.5 opacity-25"></div>
             {children}
           </div>
         </div>
