@@ -6,9 +6,9 @@ import { HelpFlixLogo } from '../components/Logo';
 
 export default function Address() {
   return (
-    <main className="mt-10 flex flex-col w-full mb-5">
+    <main className="flex flex-col w-full mb-5">
       <Title title="Endereço" />
-      <SubTitle subTitle="Porque pedimos seu endereço?" />
+      <SubTitle className="my-5" subTitle="Porque pedimos seu endereço?" />
       <div className="flex gap-5 flex-col">
         <Input label="CEP" placeHolder="00000-000" required />
         <Input label="Rua" placeHolder="Rua" required />
@@ -25,7 +25,7 @@ export default function Address() {
           placeHolder="Data de nascimento"
           required
         />
-        <Button name="Avançar" route="/checkout" />
+        <Button className="mb-5" name="Avançar" route="/checkout" />
       </div>
       <HelpFlixLogo />
     </main>
