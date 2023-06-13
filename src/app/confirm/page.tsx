@@ -5,17 +5,15 @@ import { Title } from '../components/Title';
 import { HelpFlixLogo } from '../components/Logo';
 import { DonateCardValue } from '../components/DonateCardValue';
 import { SubTitle } from '../components/Subtitle';
-import Lottie from 'react-lottie-player';
+import { LottieComponent } from '../components/Lottie/Lottie';
 
 export default function Address() {
   return (
     <main className="mt-10 flex flex-col w-full mb-5">
       <Title title="Deu tudo certo!" />
-      <Lottie
-        loop
+      <LottieComponent
         animationData={checkSucces}
-        play
-        style={{ width: 88, height: 88 }}
+        style={{ height: 88, wdith: 88 }}
       />
       <SubTitle subTitle="Agora você contribui" />
       <DonateCardValue value="50" />
