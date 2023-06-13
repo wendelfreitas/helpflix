@@ -6,8 +6,11 @@ import { HelpFlixLogo } from './components/Logo';
 export default function Home() {
   return (
     <main className="mt-12 flex flex-col mb-5 w-full">
-      <Title title="Faça sua doação" />
-      <SubTitle subTitle="Faça a assinatura do bem e ajude o Pão do Povo da Rua mensalmente!" />
+      <Title className="mb-5" title="Faça sua doação" />
+      <SubTitle
+        className="mb-10"
+        subTitle="Faça a assinatura do bem e ajude o Pão do Povo da Rua mensalmente!"
+      />
       <ul className="flex gap-5 justify-center pb-10">
         <li>
           <input
