@@ -5,7 +5,7 @@ import { HelpFlixLogo } from './components/Logo';
 
 export default function Home() {
   return (
-    <main className="mt-12 flex flex-col mb-5 w-full">
+    <main className="flex flex-col mb-5 w-full">
       <Title className="mb-5" title="Faça sua doação" />
       <SubTitle
         className="mb-10"
