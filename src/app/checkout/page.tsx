@@ -7,7 +7,7 @@ import { DonateCardValue } from '../components/DonateCardValue';
 
 export default function Address() {
   return (
-    <main className="mt-10 flex flex-col w-full mb-5">
+    <main className="flex flex-col w-full mb-5">
       <DonateCardValue value="50" />
       <Title title="Dados de Pagamento" />
 
@@ -24,7 +24,7 @@ export default function Address() {
         </div>
 
         <Input label="CPF" placeHolder="CPF" required />
-        <Button name="Avançar" route="/confirm" />
+        <Button className="mb-5" name="Avançar" route="/confirm" />
       </div>
       <HelpFlixLogo />
     </main>
