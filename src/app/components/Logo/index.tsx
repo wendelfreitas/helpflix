@@ -3,7 +3,7 @@ import logo from '../../../../public/img/logo.svg';
 import Image from 'next/image';
 
 interface HelpFlixLogoProps {
-  className: string;
+  className?: string;
 }
 
 export const HelpFlixLogo = ({ className }: HelpFlixLogoProps) => {
