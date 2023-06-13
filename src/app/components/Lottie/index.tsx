@@ -1,4 +1,4 @@
-'use-client';
+'use client';
 import React from 'react';
 import Lottie from 'react-lottie-player';
 
@@ -10,5 +10,7 @@ export const LottieComponent = ({
   animationData,
   style,
 }: LottieComponentProps) => {
-  return <Lottie loop animationData={animationData} play style={style} />;
+  return (
+    <Lottie loop={false} animationData={animationData} play style={style} />
+  );
 };
