@@ -6,7 +6,7 @@ import { HelpFlixLogo } from '../components/Logo';
 
 export default function PersonalData() {
   return (
-    <main className="mt-10 flex flex-col w-full mb-5">
+    <main className="flex flex-col w-full mb-5">
       <Title title="Dados pessoais" />
       <SubTitle subTitle="Adicione seus dados abaixo" />
       <div className="flex gap-5 flex-col">
@@ -19,7 +19,7 @@ export default function PersonalData() {
           label="Data de nascimento"
           required
         />
-        <Button name="Avançar" route="/address" />
+        <Button className="mb-5" name="Avançar" route="/address" />
       </div>
       <HelpFlixLogo />
     </main>
