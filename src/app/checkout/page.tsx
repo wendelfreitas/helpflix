@@ -9,7 +9,7 @@ export default function Address() {
   return (
     <main className="flex flex-col w-full mb-5">
       <DonateCardValue value="50" />
-      <Title title="Dados de Pagamento" />
+      <Title className="my-5" title="Dados de Pagamento" />
 
       <div className="flex gap-5 flex-col">
         <Input label="Número do cartão" placeHolder="00000-000" required />
