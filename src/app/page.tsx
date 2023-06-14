@@ -98,7 +98,7 @@ export default function Home() {
         </label>
       </div>
 
-      <Button className="mb-5" name="Avançar" route="/personalData" />
+      <Button className="mb-5" name="Avançar" route="/personal-data" />
 
       <HelpFlixLogo />
     </main>
